@@ -9,11 +9,12 @@ Create a Spring boot project
  >>(d). Write code for CRUD.<br/>
  ![](image/Screenshot%202020-11-30%20at%2012.48.13%20AM.png)
  </br>
+ 
  Step 2:-
  ----
- Integrate Swagger :- <br/>
-  (a). Add Dependency in Pom.xml <br/>
-  (b). Dependency Name :- <br/>
+ Integrate Swagger :- 
+  >>(a). Add Dependency in Pom.xml <br/>
+  >>(b). Dependency Name :- <br/>
         <dependency><br/>
              <groupId>io.springfox</groupId><br/>
              <artifactId>springfox-swagger2</artifactId><br/>
@@ -24,7 +25,9 @@ Create a Spring boot project
             <artifactId>springfox-swagger-ui</artifactId><br/>
             <version>2.9.2</version><br/>
        </dependency><br/>
-   (c). In Main Method class add annotation @EnableSwagger2 (After @SpringBootApplication annotation add @EnableSwagger2).<br/>
-   
-   (d). Opne Link http://localhost:8080/swagger-ui.html<br/>
+    ![](image/add-swagger-dependency.png)
+   >>(c). In Main Method class add annotation @EnableSwagger2 (After @SpringBootApplication annotation add @EnableSwagger2).<br/>
+   ![](image/enableswagger-in-controller.png)
+   >>(d). Opne Link http://localhost:8080/swagger-ui.html<br/>
+   ![](image/swaggerui.png)
  
